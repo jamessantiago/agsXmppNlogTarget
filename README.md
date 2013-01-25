@@ -1,4 +1,4 @@
 agsXmppNlogTarget
 =================
 
-a nlog target using agsXMPP to send logging messages
+an nlog target using agsXMPP to send logging messages
