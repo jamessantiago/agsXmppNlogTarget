@@ -1,0 +1,8 @@
+d:\Code\XmppTarget\Tests_XmppTarget\obj\Release\Tests_XmppTarget.csprojResolveAssemblyReference.cache
+d:\Code\XmppTarget\Tests_XmppTarget\bin\Release\Tests_XmppTarget.dll
+d:\Code\XmppTarget\Tests_XmppTarget\bin\Release\Tests_XmppTarget.pdb
+d:\Code\XmppTarget\Tests_XmppTarget\bin\Release\agsXMPP.dll
+d:\Code\XmppTarget\Tests_XmppTarget\bin\Release\NLog.dll
+d:\Code\XmppTarget\Tests_XmppTarget\bin\Release\NLog.xml
+d:\Code\XmppTarget\Tests_XmppTarget\obj\Release\Tests_XmppTarget.dll
+d:\Code\XmppTarget\Tests_XmppTarget\obj\Release\Tests_XmppTarget.pdb

@@ -1,0 +1,8 @@
+d:\Code\XmppTarget\XmppTarget\bin\Release\agsXMPP.dll
+d:\Code\XmppTarget\XmppTarget\bin\Release\NLog.dll
+d:\Code\XmppTarget\XmppTarget\bin\Release\NLog.xml
+d:\Code\XmppTarget\XmppTarget\obj\Release\XmppTarget.csprojResolveAssemblyReference.cache
+d:\Code\XmppTarget\XmppTarget\bin\Release\agsXmppNlogTarget.dll
+d:\Code\XmppTarget\XmppTarget\bin\Release\agsXmppNlogTarget.pdb
+d:\Code\XmppTarget\XmppTarget\obj\Release\agsXmppNlogTarget.dll
+d:\Code\XmppTarget\XmppTarget\obj\Release\agsXmppNlogTarget.pdb
