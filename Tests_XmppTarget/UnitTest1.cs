@@ -12,6 +12,10 @@ namespace Tests_XmppTarget
     [TestClass]
     public class UnitTest1
     {
+        ///not sure what's going on over here.  need to figure out a better test process flow
+        ///...and how to do testing.......
+
+
         private string domain = "";
         private string connectserver = "";
         private string username = "";
