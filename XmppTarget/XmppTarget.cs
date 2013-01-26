@@ -68,8 +68,10 @@ namespace agsXmppNlogTarget
                 jidRecipient = new Jid(Recipient);
                 xmpp = new XmppClientConnection(this.Domain ?? "");
                 xmpp.ConnectServer = ConnectServer ?? "";
+                xmpp.AutoPresence = true;
+                xmpp.Status = "Available (NLog)";
                 xmpp.Open(this.Username ?? "", this.Password ?? "");
-                xmpp.OnLogin += delegate(object o) { SendPresence(); SendMessageStack(); InitializeMessageTimer(); };
+                xmpp.OnLogin += delegate(object o) { SendMessageStack(); InitializeMessageTimer(); };
                 xmpp.OnXmppConnectionStateChanged += delegate(object o, XmppConnectionState connectionState) { HandleConnectionState(connectionState); };
                 xmpp.OnError += new ErrorHandler(HandleError);
             }
@@ -155,6 +157,7 @@ namespace agsXmppNlogTarget
             {
                 disconnectCount++;
                 xmpp.Open();
+                messageStack.Push("I reconnected");
             }
             else if (disconnectCount > MAXDISCONNECTS)
             {
@@ -175,7 +178,7 @@ namespace agsXmppNlogTarget
         private void SendPresence()
         {
             Presence p = new Presence(ShowType.chat, "Available (NLog)");
-            p.Type = PresenceType.available;
+            p.Type = PresenceType.available;            
             xmpp.Send(p);
         }
 
